@@ -1,0 +1,208 @@
+@font-face {
+	font-family: "Inter Semi-Bold";
+	src: url("../public/static/fonts/Inter-SemiBold.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inter Regular";
+	src: url("../public/static/fonts/Inter-Regular.ttf");
+	font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	resize: none;
+	font-family: "Inter Regular";
+}
+
+@media screen and (max-width: 900px) {
+	#woman-standing-with-laptop {
+		display: none;
+	}
+}
+
+#study-img {
+	max-width: 366px !important;
+	max-height: 432px !important;
+}
+
+#dashboard-img {
+	max-width: 526px !important;
+	max-height: 374px !important;
+	position: initial !important;
+}
+
+@media screen and (min-width: 1480px) {
+	#yellow-circle {
+		left: 69% !important;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1480px) {
+	#yellow-circle {
+		left: 480px !important;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#lpc-medium {
+		top: 58% !important;
+	}
+
+	#lpc-small {
+		top: 80% !important;
+	}
+
+	#blurred-ellipse {
+		top: 75% !important;
+		left: 25% !important;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+	#yellow-circle {
+		left: calc(68% + 5px) !important;
+	}
+
+	#blurred-ellipse {
+		top: 34% !important;
+		left: 42% !important;
+	}
+
+	#lpc-medium {
+		top: 60% !important;
+	}
+
+	#lpc-small {
+		top: 90% !important;
+	}
+}
+@media screen and (max-width: 600px) {
+	#dashboard-img {
+		margin-top: 12px;
+	}
+
+	#study-img {
+		height: 85% !important;
+		top: 15% !important;
+		left: -5% !important;
+	}
+
+	#outlined-circle {
+		top: 30% !important;
+		left: 12% !important;
+		width: 25% !important;
+		height: 25% !important;
+	}
+
+	#full-circle {
+		height: 65% !important;
+		width: 62% !important;
+	}
+
+	#become-a-tutor-img {
+		left: 12% !important;
+		width: 65% !important;
+	}
+
+	#lpc-medium {
+		top: 75% !important;
+		width: 32px !important;
+		height: 32px !important;
+	}
+
+	#lpc-small {
+		top: 95% !important;
+		left: 65% !important;
+		width: 10px !important;
+		height: 10px !important;
+	}
+
+	#ellipse-group {
+		left: calc(40% + 10px) !important;
+		top: calc(15% + 10px) !important;
+	}
+
+	#single-circle {
+		top: -2% !important;
+		left: -7% !important;
+		height: 250px !important;
+		width: 250px !important;
+	}
+
+	#purple-circle {
+		height: 250px !important;
+		width: 250px !important;
+		top: -11%;
+		left: 4%;
+	}
+
+	#blurred-ellipse {
+		top: 52% !important;
+		left: 68% !important;
+		width: 16px;
+		height: 16px;
+	}
+
+	#yellow-circle {
+		left: calc(113% + 10px) !important;
+		width: 16px !important;
+		height: 16px !important;
+	}
+}
+
+#one-one-tutoring-image {
+	position: inherit !important;
+	max-width: 610px;
+	max-height: 450px;
+}
+
+#blurred-ellipse {
+	top: 72%;
+	left: 22%;
+}
+
+.custom-img {
+	object-fit: contain;
+}
+
+button {
+	text-transform: none !important;
+}
+
+main {
+	flex: 1;
+}
+
+.selected-carousel-box {
+	background-color: #7f56d9 !important;
+}
+
+.container {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.css-pdgpay-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused
+	.MuiOutlinedInput-notchedOutline {
+	border-color: transparent !important;
+	border: 0 !important;
+}
